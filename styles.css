@@ -18,3 +18,10 @@ body {
     float: left;
 }
 
+.main-image {
+    padding: 30px 50px;
+}
+
+.main-image img{
+    width: 100%;
+}
