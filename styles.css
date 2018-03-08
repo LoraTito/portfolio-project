@@ -40,13 +40,22 @@ body {
 
 .featured-work-section {
     margin: 10px;
-    width: 150px;
+    width: 30%;
 }
 
 .featured-work-section img {
     width: 100%;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: cornflowerblue;
+
+}
 @media (max-width: 600px) {
     .heading {
         text-align: center;
