@@ -29,6 +29,7 @@ body {
 .featured-work-container {
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
 
 .featured-work h3{
@@ -39,15 +40,30 @@ body {
 
 .featured-work-section {
     margin: 10px;
+    width: 150px;
 }
 
 .featured-work-section img {
-    width: 200px;
+    width: 100%;
 }
 
 @media (max-width: 600px) {
     .heading {
         text-align: center;
+    }
+
+    .featured-work {
+        display: block;
+    }
+
+    .featured-work-container {
+        display: block;
+        margin: auto;
+    }
+
+    .featured-work-section {
+        width: 100%;
+        margin: 0;
     }
 
     .heading img {
