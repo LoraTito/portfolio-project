@@ -22,8 +22,10 @@ body {
     padding: 30px 50px;
 }
 
-.main-image img{
-    width: 100%;
+.main-image img {
+    width: 900px;
+    display: block;
+    margin: auto;
 }
 
 .featured-work-container {
@@ -32,7 +34,7 @@ body {
     padding: 10px;
 }
 
-.featured-work h3{
+.featured-work h3 {
     color: #7d97ad;
     /*display: block;*/
     text-align: center;
@@ -56,6 +58,17 @@ a {
     color: cornflowerblue;
 
 }
+
+@media (max-width: 1100px) {
+    .main-image img {
+        width: 100%;
+    }
+
+    .main-image {
+        padding: 10px;
+    }
+}
+
 @media (max-width: 600px) {
     .heading {
         text-align: center;
@@ -76,13 +89,13 @@ a {
     }
 
     .heading img {
-             width: 50px;
-             display: block;
-             margin: auto;
-             float: none;
-         }
+        width: 50px;
+        display: block;
+        margin: auto;
+        float: none;
+    }
 
-    .featured-work h3{
+    .featured-work h3 {
         color: #7d97ad;
         display: block;
         text-align: left;
