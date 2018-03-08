@@ -25,3 +25,42 @@ body {
 .main-image img{
     width: 100%;
 }
+
+.featured-work-container {
+    display: flex;
+    justify-content: center;
+}
+
+.featured-work h3{
+    color: #7d97ad;
+    /*display: block;*/
+    text-align: center;
+}
+
+.featured-work-section {
+    margin: 10px;
+}
+
+.featured-work-section img {
+    width: 200px;
+}
+
+@media (max-width: 600px) {
+    .heading {
+        text-align: center;
+    }
+
+    .heading img {
+             width: 50px;
+             display: block;
+             margin: auto;
+             float: none;
+         }
+
+    .featured-work h3{
+        color: #7d97ad;
+        display: block;
+        text-align: left;
+    }
+}
+
